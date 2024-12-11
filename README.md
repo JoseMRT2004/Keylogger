@@ -7,18 +7,18 @@ Bienvenido al **Keylogger Educativo**, un proyecto diseñado para aprender cómo
 > Este proyecto es únicamente para **fines educativos**. **No lo uses** para actividades malintencionadas o ilegales. Respeta las leyes y la privacidad de las personas.  
 
 ```bash
-1️⃣ Configuración Inicial
+# 1️⃣ Configuración Inicial
 
 # Clona este repositorio:
 git clone https://github.com/DevM4riano/keylogger-educativo.git
 cd keylogger-educativo
 
-2️⃣ Instalar Dependencias
+# 2️⃣ Instalar Dependencias
 
 # Asegúrate de tener Python 3.8+ instalado y ejecuta:
 pip install -r requirements.txt
 
-3️⃣ Ejecutar el Keylogger
+# 3️⃣ Ejecutar el Keylogger
 
 # Lanza el script principal:
 python keylogger.py
