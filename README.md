@@ -50,3 +50,6 @@ Este proyecto es una herramienta educativa para:
 Este proyecto está bajo la licencia MIT, lo que significa que puedes usarlo y modificarlo, pero siempre de forma ética y respetando la privacidad.
 
 ¡Explora, aprende y usa la tecnología de manera responsable! 🌐
+
+
+<!-- Working on perception -->
